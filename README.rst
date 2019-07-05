@@ -17,19 +17,22 @@ Example Getting 2016 Data as xslx
 to excel
 
 .. code-block:: python
- >> python3 fetch_and_save.py -y 2016
+
+ >>> python3 fetch_and_save.py -y 2016
 
 
 to csv
 
 .. code-block:: python
->> python3 fetch_and_save.py -y 2016 -t csv
+
+ >>> python3 fetch_and_save.py -y 2016 -t csv
 
 
 to excel with not sheeted
 
 .. code-block:: python
->> python3 fetch_and_save.py -y 2016 -s f 
+
+ >>> python3 fetch_and_save.py -y 2016 -s f 
 
 
 
