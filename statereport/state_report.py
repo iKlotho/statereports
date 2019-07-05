@@ -43,7 +43,6 @@ class StateReport:
             else:
                 print("r.ok", r.ok)
                 assert False, "Couldn't get response from server try running url with hand"
-            break
         print("Finished parsing...")
         print("You can access raw data with final_data or Extract using extract")
         

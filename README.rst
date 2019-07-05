@@ -13,10 +13,24 @@ The page gets raw data from https://www.ic3.gov/media/annualreport/2016State/sta
 
 Example Getting 2016 Data as xslx
 
-.. python3 fetch_and_save.py 2016
+
+to excel
+
+
+.. python3 fetch_and_save.py -y 2016
+
 
 to csv
-.. python3 fetch_and_save.py 2016 csv
+
+
+.. python3 fetch_and_save.py -y 2016 -t csv
+
+
+to excel with not sheeted
+
+
+.. python3 fetch_and_save.py -y 2016 -s f 
+
 
 
 
