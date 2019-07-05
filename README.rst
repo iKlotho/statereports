@@ -16,8 +16,8 @@ Example Getting 2016 Data as xslx
 
 to excel
 
-
-.. python3 fetch_and_save.py -y 2016
+.. code-block:: sh
+ python3 fetch_and_save.py -y 2016
 
 
 to csv
