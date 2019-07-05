@@ -1,0 +1,4 @@
+XlsxWriter==1.1.8
+pandas==0.24.2
+datetime
+requests
